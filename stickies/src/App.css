@@ -1,0 +1,19 @@
+.app, .dashboard {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none;
+}

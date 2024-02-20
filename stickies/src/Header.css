@@ -1,0 +1,131 @@
+.header {
+    background-color: #f4aeba;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+
+    border-bottom: 1px solid white;
+}
+
+.header__sub {
+    display: flex;
+    place-content: center;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 0;
+    padding-top: 0;
+
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.5rem;
+
+    font-family: sans-serif;
+    color: white;
+}
+
+.header__title {
+    display: flex;
+    place-content: center;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 0;
+
+    font-weight: normal;
+    font-size: 3.5rem;
+
+    font-family: sans-serif;
+    color: white
+}
+
+.header__intro {
+    display: flex;
+    place-content: center;
+    font-size: 4rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.controls__main {
+    display: flex;
+    flex-direction: row;
+}
+
+.controls__refresh {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.controls__logout {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.controls__user {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.user {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #455d7a;
+    font-style: italic;
+}
+
+button {
+    background-color: #8dc6ff;
+    border: none;
+    color: #455d7a;
+}
+
+span {
+    padding-right: 1.2rem;
+    font-size: 1rem;
+}
+
+.green {
+    background-color: #9fd3c7;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+
+.pink {
+    background-color: #ffcbcb;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+
+.purple {
+    background-color: #a6acec;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+
+.brown {
+    background-color: #c7b198;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem;
+}

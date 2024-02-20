@@ -1,0 +1,178 @@
+.stickies {
+    background-color: #feffdf;
+}
+
+.stickies__list {
+    display: grid;
+    padding: 2rem;
+    margin: 3rem;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.stickies__item {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    grid-column: span 3;
+    border: 1px solid white;
+}
+
+.stickies__delete {
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid white;
+    justify-content: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stickies__title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2470a0;
+    min-width: 15rem;
+    max-width: 30rem;
+}
+
+.stickie__note {
+    resize: none;
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    height: -webkit-fill-available;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.add-stickie__form {
+    display: flex;
+    justify-content: end;
+
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.add-stickie__button {
+    display: flex;
+    flex-direction: row;
+    place-self: flex-end;
+
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+    margin-right: 2rem;
+}
+
+.add-stickie__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-stickie__form-labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-stickie__dialog--error {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #e8630a;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 1rem;
+}
+
+.add-stickie__form-label {
+    margin: 0.2rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.add-stickie__form-label-text {
+    font-size: 1.2rem;
+}
+
+.add-stickie__form-input {
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.add-stickie__form-colour-label {
+    display: flex;
+    flex-direction: row;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+.add-stickie__submit-button {
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.dialog__notes {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.dialog__saved {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.dialog__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dialog__note {
+    height: -webkit-fill-available;
+    font-size: 1.1rem;
+}
+
+dialog {
+    padding: 2rem;
+    height: 35rem;
+    background-color: #f0ece2;
+    width: 35rem;
+}
+
+input {
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.greenNote {
+    background-color: #b9e1dc;
+}
+
+.pinkNote {
+    background-color: #f0d9da;
+}
+
+.purpleNote {
+    background-color: #cadefc;
+}
+
+.brownNote {
+    background-color: #dfd3c3;
+}
+
+textarea {
+    background-color: #8f8787;
+    color: white;
+}
+
+.add-stickie__form-radio-text {
+    font-size: 1.1rem;
+}
